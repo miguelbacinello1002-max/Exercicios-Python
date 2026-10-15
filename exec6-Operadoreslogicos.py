@@ -4,4 +4,4 @@ projetos_entregues = int(input("Projetos entregues no semestre: "))
 if nota_avaliacao >= 8.0 and projetos_entregues >= 3:
     print("Bônus de desenpenho: aprovado!")
 else:
-    print("Bônus negado. Metas não atingidas integralmente.")git
+    print("Bônus negado. Metas não atingidas integralmente.")
