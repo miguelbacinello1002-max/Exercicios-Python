@@ -33,13 +33,7 @@ while True:
     try:
         salario_base = float(input("Salário Base (use ponto. Ex: 1500.00): R$ "))
 
-        # Blindagem 3: Regra de Negócio (Não existe salário negativo ou zero)
-        if salario_base <= 0:
-            print("\n ERRO LOGÍSTICO: O salário maior que zero.")
-            print(" Registro concelado. Tente novamente.")
-            continue
-    except ValueError:
-        print(" ERRO: Digite um salário numérico válido.")
-        continue
-
-        #Processamento chamando a função (def) isolada
+      idade = int(input("Idade do candidato: "))
+if idade >= 18:
+    print("✅ Acesso liberado ao sistema de RH")
+    print("Iniciando processo de admissão...")
